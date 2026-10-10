@@ -1,0 +1,6 @@
+{
+  "name": "Orvix XO",
+  "description": "Neon Grid Duel — 2D strategy Tic Tac Toe game with smart AI, 3x3 to 11x11 boards, Pass & Play, and persistent statistics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

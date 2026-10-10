@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Neon grid frame in the center safe zone -->
+    <path
+        android:strokeColor="#3048F2FF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M32,46 L76,46 M32,62 L76,62 M46,32 L46,76 M62,32 L62,76" />
+    
+    <!-- Neon X in bright cyan (#48F2FF) -->
+    <!-- Outer glow stroke -->
+    <path
+        android:strokeColor="#4048F2FF"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:pathData="M33,37 L49,53 M49,37 L33,53" />
+    <!-- Core stroke -->
+    <path
+        android:strokeColor="#FF48F2FF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M33,37 L49,53 M49,37 L33,53" />
+    <!-- Core highlight -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M33,37 L49,53 M49,37 L33,53" />
+
+    <!-- Neon O in electric violet (#B39AFF) -->
+    <!-- Outer glow ring -->
+    <path
+        android:strokeColor="#40B39AFF"
+        android:strokeWidth="7"
+        android:pathData="M59,63 A10,10 0 1,1 75,63 A10,10 0 1,1 59,63" />
+    <!-- Core ring -->
+    <path
+        android:strokeColor="#FFB39AFF"
+        android:strokeWidth="4"
+        android:pathData="M59,63 A10,10 0 1,1 75,63 A10,10 0 1,1 59,63" />
+    <!-- Core highlight -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M59,63 A10,10 0 1,1 75,63 A10,10 0 1,1 59,63" />
+
+    <!-- Small decorative neon dots -->
+    <path
+        android:fillColor="#FF48F2FF"
+        android:pathData="M67,39 A2,2 0 1,1 67.01,39" />
+    <path
+        android:fillColor="#FFB39AFF"
+        android:pathData="M41,69 A2,2 0 1,1 41.01,69" />
+</vector>
